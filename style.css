@@ -54,6 +54,11 @@
   /* border-bottom: 1px solid white; */
 }
 
+#nav-logo {
+  position: absolute;
+  left: 4%;
+}
+
 .nav-text {
   text-align: center;
   text-transform: uppercase;
@@ -101,7 +106,7 @@
 }
 
 #value-heading {
-  top: 220px;
+  top: 180px;
 
   width: 959px;
 
@@ -111,7 +116,7 @@
 }
 
 #value-description {
-  top: 325px;
+  top: 280px;
 
   width: 801px;
 
@@ -123,7 +128,7 @@
 #value-button {
   -webkit-appearance: none;
 
-  top: 460px;
+  top: 400px;
 
   width: 360px;
   height: 60px;
@@ -139,4 +144,15 @@
   box-shadow: 2px 16px 16px rgba(16,72,67, 0.53);
 
   cursor: pointer;
+}
+
+#ipad-img {
+  position: absolute;
+  top: 574px;
+  left: 0;
+  right: 0;
+
+  width: 987px;
+  height: 599px;
+  margin: auto;
 }

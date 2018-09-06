@@ -452,14 +452,21 @@
   #ipad-img {
     top: 444px;
 
-    width: 217px;
-    height: 132px;
+    width: 257px;
+    height: 156px;
+  }
+
+  #how-it-works-container {
+    top: 1280px;
+
+    width: 375px;
+    height: 169px;
   }
 
   #benefits-container {
     top: 1780px;
 
-    width: 320px;
-    height: 340px;
+    width: 375px;
+    height: 402px;
   }
 }

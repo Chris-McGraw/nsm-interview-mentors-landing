@@ -118,20 +118,19 @@
   font-weight: 700;
 }
 
-#value-description {
-  top: 280px;
+#value-description-img {
+  position: absolute;
+  top: 290px;
+  left: 0;
+  right: 0;
 
-  width: 801px;
-
-  font-family: "Roboto", sans-serif;
-  font-size: 22pt;
-  font-weight: 300;
+  margin: auto;
 }
 
 #value-button {
   -webkit-appearance: none;
 
-  top: 400px;
+  top: 390px;
 
   width: 360px;
   height: 60px;
@@ -162,30 +161,15 @@
 /* ---------------------------- INTRO CONTAINER ---------------------------- */
 #intro-container {
   position: absolute;
-  top: 1250px;
+  top: 1240px;
   left: 0;
   right: 0;
 
   width: 844px;
-  height: 510px;
+  height: 461px;
   margin: auto;
 
   /* border: 1px solid black; */
-}
-
-#intro-text {
-  position: absolute;
-  left: 0;
-  right: 0;
-
-  width: 95%;
-  margin: auto;
-
-  text-align: center;
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 22pt;
-  font-weight: 300;
 }
 
 #illustration-img {

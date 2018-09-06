@@ -7,6 +7,10 @@
   cursor: default;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 
 /* ---------------------------- VALUE CONTAINER ---------------------------- */
 #value-container {
@@ -61,7 +65,7 @@
   position: absolute;
   left: 4%;
 
-  width: 300px:
+  width: 300px;
   height: 70px;
 }
 
@@ -313,7 +317,7 @@
 }
 
 
-/* -------------------------- MEDIA QUERY >= 1439 -------------------------- */
+/* -------------------------- MEDIA QUERY <= 1439 -------------------------- */
 @media screen and (max-width: 1439px) {
   #value-background-base {
     height: 604px;
@@ -439,34 +443,118 @@
   }
 }
 
-/* -------------------------- MEDIA QUERY >= 1023 -------------------------- */
+/* -------------------------- MEDIA QUERY <= 1023 -------------------------- */
 @media screen and (max-width: 1023px) {
   body {
     background-color: blue;
   }
+
+  #how-it-works-link-container {
+    display: none;
+  }
 }
 
-/* -------------------------- MEDIA QUERY >= 424 -------------------------- */
+/* -------------------------- MEDIA QUERY <= 424 -------------------------- */
 @media screen and (max-width: 424px) {
+  body {
+    background-color: white;
+  }
+
+  #value-background-base {
+    height: 264px;
+  }
+
+  #value-background {
+    height: 264px;
+  }
+
+  #nav-logo {
+    top: 6px;
+    left: 2%;
+
+    width: 150px;
+    height: 35px;
+  }
+
+  .nav-text {
+    font-size: 6px;
+  }
+
+  #nav-button-text {
+    top: 24px;
+    right: 15%;
+
+    width: 140px;
+  }
+
+  #nav-button {
+    top: 20px;
+    right: 8%;
+
+    width: 57px;
+    height: 14px;
+    padding-top: 1px;
+
+    border: 1px solid white;
+  }
+
+  #value-heading-img {
+    top: 98px;
+
+    width: 207px;
+    height: 13px;
+  }
+
+  #value-description-img {
+    top: 122px;
+
+    width: 152px;
+    height: 12px;
+  }
+
+  #value-button {
+    top: 150px;
+
+    width: 94px;
+    height: 16px;
+
+    font-size: 6px;
+
+    box-shadow: 2px 4px 4px rgba(16,72,67, 0.53);
+  }
 
   #ipad-img {
-    top: 444px;
+    top: 204px;
 
     width: 257px;
     height: 156px;
   }
 
+  #intro-container {
+    top: 380px;
+
+    width: 219px;
+    height: 120px;
+  }
+
   #how-it-works-container {
-    top: 1280px;
+    top: 510px;
 
     width: 375px;
     height: 169px;
   }
 
   #benefits-container {
-    top: 1780px;
+    top: 690px;
 
     width: 375px;
     height: 402px;
+  }
+
+  #why-elemento-container {
+    top: 1120px;
+
+    width: 374px;
+    height: 150px;
   }
 }

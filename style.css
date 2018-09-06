@@ -215,6 +215,55 @@
   margin: auto;
 }
 
+#how-it-works-link-container {
+  position: absolute;
+  bottom: 77px;
+  left: 46px;
+  right: 0;
+
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  padding-top: 10px;
+
+  background-color: rgba(255,255,255, 1.0);
+  /* border: 1px solid black; */
+}
+
+#how-it-works-link {
+  position: absolute;
+  top: 16px;
+  left: -44px;
+  right: 0;
+
+  width: 207px;
+  height: 28px;
+  margin: auto;
+  padding-top: 4px;
+
+  text-align: right;
+  color: rgba(55,159,227, 1.0);
+  font-family: "Roboto", sans-serif;
+  font-size: 13pt;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  word-spacing: 1.0px;
+
+  background-color: rgba(255,255,255, 1.0);
+  cursor: pointer;
+}
+
+#play-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 28px;
+  height: 28px;
+
+  cursor: pointer;
+}
+
 /* -------------------------- BENEFITS CONTAINER -------------------------- */
 #benefits-container {
   position: absolute;
@@ -346,6 +395,33 @@
 
     width: 1024px;
     height: 462px;
+  }
+
+  #how-it-works-link-container {
+    bottom: 54px;
+    left: 46px;
+    right: 0;
+
+    width: 213px;
+    height: 43px;
+    padding-top: 0px;
+  }
+
+  #how-it-works-link {
+    top: 12px;
+    left: -44px;
+    right: 0;
+
+    width: 147px;
+    height: 20px;
+    padding-top: 2.5px;
+
+    font-size: 9pt;
+  }
+
+  #play-logo {
+    width: 20px;
+    height: 20px;
   }
 
   #benefits-container {

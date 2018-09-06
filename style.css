@@ -445,3 +445,21 @@
     background-color: blue;
   }
 }
+
+/* -------------------------- MEDIA QUERY >= 424 -------------------------- */
+@media screen and (max-width: 424px) {
+
+  #ipad-img {
+    top: 444px;
+
+    width: 217px;
+    height: 132px;
+  }
+
+  #benefits-container {
+    top: 1780px;
+
+    width: 320px;
+    height: 340px;
+  }
+}

@@ -215,6 +215,53 @@
   margin: auto;
 }
 
+/* -------------------------- BENEFITS CONTAINER -------------------------- */
+#benefits-container {
+  position: absolute;
+  top: 2440px;
+  left: 0;
+  right: 0;
+
+  width: 1440px;
+  height: 1545px;
+  margin: auto;
+
+  /* border: 1px solid black; */
+}
+
+#benefits-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  margin: auto;
+}
+
+/* ------------------------ WHY ELEMENTO CONTAINER ------------------------ */
+#why-elemento-container {
+  position: absolute;
+  top: 4100px;
+  left: 0;
+  right: 0;
+
+  width: 1439px;
+  height: 578px;
+  margin: auto;
+
+  /* border: 1px solid black; */
+}
+
+#why-elemento-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  margin: auto;
+}
 
 
 /* -------------------------- MEDIA QUERY >= 1439 -------------------------- */
@@ -228,7 +275,6 @@
   }
 
   #nav-logo {
-    position: absolute;
     top: 6px;
     left: 4%;
 
@@ -241,7 +287,6 @@
   }
 
   #nav-button-text {
-    position: absolute;
     top: 27px;
     right: 20%;
 
@@ -249,7 +294,6 @@
   }
 
   #nav-button {
-    position: absolute;
     top: 20px;
     right: 8%;
 
@@ -259,7 +303,6 @@
   }
 
   #value-heading-img {
-    position: absolute;
     top: 168px;
 
     width: 564px;
@@ -267,7 +310,6 @@
   }
 
   #value-description-img {
-    position: absolute;
     top: 240px;
 
     width: 415px;
@@ -286,7 +328,6 @@
   }
 
   #ipad-img {
-    position: absolute;
     top: 444px;
 
     width: 701px;
@@ -294,7 +335,6 @@
   }
 
   #intro-container {
-    position: absolute;
     top: 920px;
 
     width: 599px;
@@ -302,10 +342,30 @@
   }
 
   #how-it-works-container {
-    position: absolute;
     top: 1280px;
 
     width: 1024px;
     height: 462px;
+  }
+
+  #benefits-container {
+    top: 1780px;
+
+    width: 1024px;
+    height: 1099px;
+  }
+
+  #why-elemento-container {
+    top: 2980px;
+
+    width: 1022px;
+    height: 410px;
+  }
+}
+
+/* -------------------------- MEDIA QUERY >= 1023 -------------------------- */
+@media screen and (max-width: 1023px) {
+  body {
+    background-color: blue;
   }
 }

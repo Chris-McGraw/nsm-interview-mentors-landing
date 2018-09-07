@@ -1,5 +1,12 @@
 /* --- MENTORS CONTAINER QUERY --- */
+  .mentors-row-container {
+    width: 1320px;
+    height: 420px;
+  }
+
   .mentors-row-arrow-container {
+    left: -110px;
+
     width: 100px;
     height: 420px;
   }
@@ -9,11 +16,6 @@
 
     width: 92px;
     height: 92px;
-  }
-
-  .mentors-row-container {
-    width: 1320px;
-    height: 420px;
   }
 
   .mentors-row-heading-img {
@@ -52,9 +54,6 @@
   }
 
   /* ----------------- ROW 1 ----------------- */
-  #mentors-row-arrow-container-1 {
-    top: 300px;
-  }
   #mentors-row-container-1 {
     top: 300px;
   }
@@ -79,9 +78,6 @@
   }
 
   /* ----------------- ROW 2 ----------------- */
-  #mentors-row-arrow-container-2 {
-    top: 760px;
-  }
   #mentors-row-container-2 {
     top: 760px;
   }

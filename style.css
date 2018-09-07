@@ -262,6 +262,7 @@ body {
   cursor: pointer;
 }
 
+
 /* -------------------------- BENEFITS CONTAINER -------------------------- */
 #benefits-container {
   position: absolute;
@@ -284,6 +285,7 @@ body {
   margin: auto;
 }
 
+
 /* ------------------------ WHY ELEMENTO CONTAINER ------------------------ */
 #why-elemento-container {
   position: absolute;
@@ -305,6 +307,166 @@ body {
   width: 100%;
   margin: auto;
 }
+
+
+/* --------------------------- MENTORS CONTAINER --------------------------- */
+.mentors-row-arrow-container {
+  position: absolute;
+  left: 0;
+
+  width: 100px;
+  height: 420px;
+}
+
+.mentors-row-arrow {
+  position: absolute;
+  top: 184px;
+  left: 0;
+
+  width: 92px;
+  height: 92px;
+
+  cursor: pointer;
+}
+
+.mentors-row-container {
+  position: absolute;
+  right: 0;
+
+  width: 1320px;
+  height: 420px;
+}
+
+.mentors-row-heading-img {
+  position: absolute;
+  top: 20px;
+  left: 0;
+
+  width: 250px;
+  height: 22px;
+}
+
+.mentors-row-link-img {
+  position: absolute;
+  top: 20px;
+  right: 160px;
+
+  width: 69px;
+  height: 14px;
+
+  cursor: pointer;
+}
+
+.mentors-row-link-img:hover {
+  opacity: 0.8;
+}
+
+.mentors-row-link-img:active {
+  opacity: 1.0;
+}
+
+.mentors-row-tile {
+  position: absolute;
+  top: 80px;
+
+  width: 241px;
+  height: 301px;
+}
+
+#mentors-container-main {
+  position: absolute;
+  top: 4700px;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: 1247px;
+  margin: auto;
+
+  background-color: rgba(28,171,160, 1.0);
+}
+
+#mentors-heading-img {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  right: 0;
+
+  width: 361px;
+  height: 40px;
+  margin: auto;
+}
+
+/* ----------------- ROW 1 ----------------- */
+#mentors-row-arrow-container-1 {
+  top: 300px;
+}
+
+#mentors-row-container-1 {
+  top: 300px;
+
+  border-bottom: 1px solid rgba(205,205,205, 1.0);
+}
+
+#mentors-row-tile-1-1 {
+  left: -20px;
+}
+
+#mentors-row-tile-1-2 {
+  left: 220px;
+}
+
+#mentors-row-tile-1-3 {
+  left: 460px;
+}
+
+#mentors-row-tile-1-4 {
+  left: 700px;
+}
+
+#mentors-row-tile-1-5 {
+  left: 940px;
+}
+
+#mentors-row-tile-1-6 {
+  left: 1180px;
+}
+
+/* ----------------- ROW 2 ----------------- */
+#mentors-row-arrow-container-2 {
+  top: 760px;
+}
+
+#mentors-row-container-2 {
+  top: 760px;
+}
+
+#mentors-row-tile-2-1 {
+  left: -20px;
+}
+
+#mentors-row-tile-2-2 {
+  left: 220px;
+}
+
+#mentors-row-tile-2-3 {
+  left: 460px;
+}
+
+#mentors-row-tile-2-4 {
+  left: 700px;
+}
+
+#mentors-row-tile-2-5 {
+  left: 940px;
+}
+
+#mentors-row-tile-2-6 {
+  left: 1180px;
+}
+
+
+
 
 
 /* -------------------------- MEDIA QUERY <= 1439 -------------------------- */
@@ -741,5 +903,114 @@ body {
 
     width: 374px;
     height: 150px;
+  }
+
+/* --- MENTORS CONTAINER QUERY --- */
+  .mentors-row-arrow-container {
+    width: 26px;
+    height: 109px;
+  }
+
+  .mentors-row-arrow {
+    top: 50px;
+
+    width: 24px;
+    height: 24px;
+  }
+
+  .mentors-row-container {
+    width: 343px;
+    height: 109px;
+
+    /* border: 1px solid white; */
+  }
+
+  .mentors-row-heading-img {
+    top: 10px;
+
+    width: 65px;
+    height: 6px;
+  }
+
+  .mentors-row-link-img {
+    top: 10px;
+    right: 44px;
+
+    width: 28px;
+    height: 4px;
+  }
+
+  .mentors-row-tile {
+    top: 24px;
+
+    width: 63px;
+    height: 78px;
+  }
+
+  #mentors-container-main {
+    top: 1280px;
+
+    height: 324px;
+  }
+
+  #mentors-heading-img {
+    top: 50px;
+
+    width: 94px;
+    height: 10px;
+  }
+
+  /* ----------------- ROW 1 ----------------- */
+  #mentors-row-arrow-container-1 {
+    top: 80px;
+  }
+  #mentors-row-container-1 {
+    top: 80px;
+  }
+
+  #mentors-row-tile-1-1 {
+    left: -5px;
+  }
+  #mentors-row-tile-1-2 {
+    left: 57px;
+  }
+  #mentors-row-tile-1-3 {
+    left: 119px;
+  }
+  #mentors-row-tile-1-4 {
+    left: 181px;
+  }
+  #mentors-row-tile-1-5 {
+    left: 243px;
+  }
+  #mentors-row-tile-1-6 {
+    left: 305px;
+  }
+
+  /* ----------------- ROW 2 ----------------- */
+  #mentors-row-arrow-container-2 {
+    top: 190px;
+  }
+  #mentors-row-container-2 {
+    top: 190px;
+  }
+
+  #mentors-row-tile-2-1 {
+    left: -5px;
+  }
+  #mentors-row-tile-2-2 {
+    left: 57px;
+  }
+  #mentors-row-tile-2-3 {
+    left: 119px;
+  }
+  #mentors-row-tile-2-4 {
+    left: 181px;
+  }
+  #mentors-row-tile-2-5 {
+    left: 243px;
+  }
+  #mentors-row-tile-2-6 {
+    left: 305px;
   }
 }

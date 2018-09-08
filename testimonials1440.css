@@ -1,0 +1,30 @@
+#testimonials-container {
+  top: 6030px;
+
+  width: 1440px;
+  height: 1040px;
+}
+
+#testimonials-quote-mark {
+  width: 115px;
+  height: 89px;
+}
+
+#testimonials-heading-img {
+  top: 180px;
+
+  width: 334px;
+  height: 43px;
+}
+
+#testimonials-video-container {
+  top: 400px;
+
+  width: 1320px;
+  height: 503px;
+}
+
+#testimonials-video-accent {
+  width: 851px;
+  height: 503px;
+}

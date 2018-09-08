@@ -22,6 +22,9 @@ body {
   right: 0;
 
   width: 100%;
+
+  width: 1440px;
+
   height: 1173px;
   margin: auto;
 
@@ -380,10 +383,14 @@ body {
   right: 0;
 
   width: 100%;
+  width: 1440px;
+
   height: 1247px;
   margin: auto;
 
   background-color: rgba(28,171,160, 1.0);
+
+  overflow-x: hidden;
 }
 
 #mentors-heading-img {
@@ -448,11 +455,73 @@ body {
 }
 
 
+/* #testimonials-container {
+  position: absolute;
+  top: 6030px;
+  left: 0;
+  right: 0;
+
+  width: 1440px;
+  height: 1040px;
+  margin: auto;
+
+  border: 1px solid black;
+}
+
+#testimonials-quote-mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  width: 115px;
+  height: 89px;
+  margin: auto;
+}
+
+#testimonials-heading-img {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+
+  width: 334px;
+  height: 43px;
+  margin: auto;
+}
+
+#testimonials-video-container {
+  position: absolute;
+  top: 400px;
+  right: 0;
+
+  width: 1320px;
+  height: 503px;
+
+  border: 1px solid black;
+}
+
+#testimonials-video-accent {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 851px;
+  height: 503px;
+
+  background-color: rgba(28,171,160, 1.0);
+} */
+
+
 
 
 
 /* -------------------------- MEDIA QUERY <= 1439 -------------------------- */
 @media screen and (max-width: 1439px) {
+  #value-container {
+    width: 1024px;
+  }
+
   #value-background-base {
     height: 604px;
   }
@@ -572,7 +641,7 @@ body {
   #why-elemento-container {
     top: 2980px;
 
-    width: 1022px;
+    width: 1024px;
     height: 410px;
   }
 
@@ -621,6 +690,7 @@ body {
   #mentors-container-main {
     top: 3410px;
 
+    width: 1024px;
     height: 885px;
   }
 
@@ -694,6 +764,9 @@ body {
 
 
 
+  #value-container {
+    width: 768px;
+  }
 
   #value-background-base {
     height: 472px;
@@ -775,21 +848,21 @@ body {
   #how-it-works-container {
     top: 980px;
 
-    width: 763px;
+    width: 768px;
     height: 344px;
   }
 
   #benefits-container {
     top: 1350px;
 
-    width: 763px;
+    width: 768px;
     height: 819px;
   }
 
   #why-elemento-container {
     top: 2230px;
 
-    width: 763px;
+    width: 768px;
     height: 306px;
   }
 
@@ -838,6 +911,7 @@ body {
   #mentors-container-main {
     top: 2550px;
 
+    width: 768px;
     height: 661px;
   }
 
@@ -899,6 +973,10 @@ body {
 
 /* -------------------------- MEDIA QUERY <= 767 -------------------------- */
 @media screen and (max-width: 767px) {
+  #value-container {
+    width: 375px;
+  }
+
   #value-background-base {
     height: 264px;
   }
@@ -993,7 +1071,7 @@ body {
   #why-elemento-container {
     top: 1120px;
 
-    width: 374px;
+    width: 375px;
     height: 150px;
   }
 
@@ -1042,6 +1120,7 @@ body {
   #mentors-container-main {
     top: 1280px;
 
+    width: 375px;
     height: 324px;
   }
 

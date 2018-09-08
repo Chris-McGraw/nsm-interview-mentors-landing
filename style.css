@@ -296,7 +296,7 @@ body {
   left: 0;
   right: 0;
 
-  width: 1439px;
+  width: 1440px;
   height: 578px;
   margin: auto;
 }
@@ -567,6 +567,79 @@ body {
 
   background-color: rgba(28,171,160, 1.0);
 }
+
+
+/* ------------------------- PRICE TABLE CONTAINER ------------------------- */
+/* #price-table-container {
+  position: absolute;
+  top: 7040px;
+  left: 0;
+  right: 0;
+
+  width: 1440px;
+  height: 1200px;
+  margin: auto;
+}
+
+#price-table-background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  margin: auto;
+}
+
+#price-table-plan-toggle {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  right: 0;
+
+  width: 355px;
+  height: 35px;
+  margin: auto;
+}
+
+#price-table-basic-plan {
+  position: absolute;
+  top: 400px;
+  left: -780px;
+  right: 0;
+
+  width: 376px;
+  height: 669px;
+  margin: auto;
+
+  cursor: pointer;
+}
+
+#price-table-advanced-plan {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+
+  width: 376px;
+  height: 669px;
+  margin: auto;
+
+  cursor: pointer;
+}
+
+#price-table-deluxe-plan {
+  position: absolute;
+  top: 400px;
+  left: 780px;
+  right: 0;
+
+  width: 376px;
+  height: 669px;
+  margin: auto;
+
+  cursor: pointer;
+} */
 
 
 

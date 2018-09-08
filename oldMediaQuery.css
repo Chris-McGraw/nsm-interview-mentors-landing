@@ -1,0 +1,304 @@
+/* -------------------------- MEDIA QUERY <= 767 -------------------------- */
+@media screen and (max-width: 767px) {
+  #value-background-base {
+    height: 280px;
+  }
+
+  #value-background {
+    height: 280px;
+  }
+
+  #nav-logo {
+    top: 6px;
+    left: 2%;
+
+    width: 150px;
+    height: 35px;
+  }
+
+  .nav-text {
+    font-size: 7px;
+  }
+
+  #nav-button-text {
+    top: 22px;
+    right: 11%;
+
+    width: 140px;
+  }
+
+  #nav-button {
+    top: 20px;
+    right: 7%;
+
+    width: 46px;
+    height: 11px;
+    padding-top: 1px;
+
+    border: 1px solid white;
+  }
+
+  #value-heading-img {
+    top: 100px;
+
+    width: 231px;
+    height: 14px;
+  }
+
+  #value-description-img {
+    top: 128px;
+
+    width: 169px;
+    height: 14px;
+  }
+
+  #value-button {
+    top: 160px;
+
+    width: 104px;
+    height: 17px;
+
+    font-size: 7px;
+
+    box-shadow: 2px 5px 5px rgba(16,72,67, 0.53);
+  }
+
+  #ipad-img {
+    top: 212px;
+
+    width: 286px;
+    height: 174px;
+  }
+
+  #intro-container {
+    top: 404px;
+
+    width: 245px;
+    height: 134px;
+  }
+
+  #how-it-works-container {
+    top: 550px;
+
+    width: 418px;
+    height: 188px;
+  }
+
+  #benefits-container {
+    top: 750px;
+
+    width: 418px;
+    height: 448px;
+  }
+
+  #why-elemento-container {
+    top: 1230px;
+
+    width: 417px;
+    height: 168px;
+  }
+}
+
+/* -------------------------- MEDIA QUERY <= 424 -------------------------- */
+@media screen and (max-width: 424px) {
+  #value-background-base {
+    height: 264px;
+  }
+
+  #value-background {
+    height: 264px;
+  }
+
+  #nav-logo {
+    top: 6px;
+    left: 1%;
+
+    width: 150px;
+    height: 35px;
+  }
+
+  .nav-text {
+    font-size: 6px;
+  }
+
+  #nav-button-text {
+    top: 22px;
+    right: 11%;
+
+    width: 140px;
+  }
+
+  #nav-button {
+    top: 20px;
+    right: 8%;
+
+    width: 46px;
+    height: 11px;
+    padding-top: 0;
+
+    border: 1px solid white;
+  }
+
+  #value-heading-img {
+    top: 98px;
+
+    width: 207px;
+    height: 13px;
+  }
+
+  #value-description-img {
+    top: 122px;
+
+    width: 152px;
+    height: 12px;
+  }
+
+  #value-button {
+    top: 150px;
+
+    width: 94px;
+    height: 16px;
+
+    font-size: 6px;
+
+    box-shadow: 2px 4px 4px rgba(16,72,67, 0.53);
+  }
+
+  #ipad-img {
+    top: 204px;
+
+    width: 257px;
+    height: 156px;
+  }
+
+  #intro-container {
+    top: 380px;
+
+    width: 219px;
+    height: 120px;
+  }
+
+  #how-it-works-container {
+    top: 510px;
+
+    width: 375px;
+    height: 169px;
+  }
+
+  #benefits-container {
+    top: 690px;
+
+    width: 375px;
+    height: 402px;
+  }
+
+  #why-elemento-container {
+    top: 1120px;
+
+    width: 374px;
+    height: 150px;
+  }
+
+
+  .mentors-row-container {
+    width: 343px;
+    height: 109px;
+  }
+
+  .mentors-row-arrow-container {
+    left: -30px;
+
+    width: 26px;
+    height: 109px;
+  }
+
+  .mentors-row-arrow {
+    top: 50px;
+
+    width: 24px;
+    height: 24px;
+  }
+
+  .mentors-row-heading-img {
+    top: 10px;
+
+    width: 65px;
+    height: 6px;
+  }
+
+  .mentors-row-link-img {
+    top: 10px;
+    right: 44px;
+
+    width: 28px;
+    height: 4px;
+  }
+
+  .mentors-row-tile {
+    top: 24px;
+
+    width: 63px;
+    height: 78px;
+  }
+
+  #mentors-container-main {
+    top: 1280px;
+
+    height: 324px;
+  }
+
+  #mentors-heading-img {
+    top: 50px;
+
+    width: 94px;
+    height: 10px;
+  }
+
+
+  #mentors-row-container-1 {
+    top: 80px;
+  }
+
+  #mentors-row-tile-1-1 {
+    left: -5px;
+  }
+  #mentors-row-tile-1-2 {
+    left: 57px;
+  }
+  #mentors-row-tile-1-3 {
+    left: 119px;
+  }
+  #mentors-row-tile-1-4 {
+    left: 181px;
+  }
+  #mentors-row-tile-1-5 {
+    left: 243px;
+  }
+  #mentors-row-tile-1-6 {
+    left: 305px;
+  }
+
+
+  #mentors-row-container-2 {
+    top: 190px;
+  }
+
+  #mentors-row-tile-2-1 {
+    left: -5px;
+  }
+  #mentors-row-tile-2-2 {
+    left: 57px;
+  }
+  #mentors-row-tile-2-3 {
+    left: 119px;
+  }
+  #mentors-row-tile-2-4 {
+    left: 181px;
+  }
+  #mentors-row-tile-2-5 {
+    left: 243px;
+  }
+  #mentors-row-tile-2-6 {
+    left: 305px;
+  }
+}

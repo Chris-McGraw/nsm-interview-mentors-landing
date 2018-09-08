@@ -20,8 +20,22 @@
 #testimonials-video-container {
   top: 400px;
 
-  width: 1320px;
+  width: 1360px;
   height: 503px;
+}
+
+#testimonials-name-ann {
+  top: 95px;
+
+  width: 235px;
+  height: 59px;
+}
+
+#testimonials-description-ann {
+  top: 205px;
+
+  width: 374px;
+  height: 130px;
 }
 
 .testimonials-arrow {

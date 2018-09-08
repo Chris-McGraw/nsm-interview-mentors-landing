@@ -455,7 +455,7 @@ body {
 }
 
 
-/* #testimonials-container {
+#testimonials-container {
   position: absolute;
   top: 6030px;
   left: 0;
@@ -465,7 +465,7 @@ body {
   height: 1040px;
   margin: auto;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #testimonials-quote-mark {
@@ -498,7 +498,7 @@ body {
   width: 1320px;
   height: 503px;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #testimonials-video-accent {
@@ -510,7 +510,7 @@ body {
   height: 503px;
 
   background-color: rgba(28,171,160, 1.0);
-} */
+}
 
 
 
@@ -748,6 +748,38 @@ body {
   #mentors-row-tile-2-6 {
     left: 834px;
   }
+
+
+  #testimonials-container {
+    top: 4360px;
+
+    width: 1024px;
+    height: 738px;
+  }
+
+  #testimonials-quote-mark {
+    width: 82px;
+    height: 63px;
+  }
+
+  #testimonials-heading-img {
+    top: 130px;
+
+    width: 237px;
+    height: 31px;
+  }
+
+  #testimonials-video-container {
+    top: 300px;
+
+    width: 937px;
+    height: 357px;
+  }
+
+  #testimonials-video-accent {
+    width: 604px;
+    height: 357px;
+  }
 }
 
 /* -------------------------- MEDIA QUERY <= 1023 -------------------------- */
@@ -969,6 +1001,38 @@ body {
   #mentors-row-tile-2-6 {
     left: 623px;
   }
+
+
+  #testimonials-container {
+    top: 3260px;
+
+    width: 768px;
+    height: 551px;
+  }
+
+  #testimonials-quote-mark {
+    width: 61px;
+    height: 46px;
+  }
+
+  #testimonials-heading-img {
+    top: 100px;
+
+    width: 177px;
+    height: 23px;
+  }
+
+  #testimonials-video-container {
+    top: 220px;
+
+    width: 700px;
+    height: 267px;
+  }
+
+  #testimonials-video-accent {
+    width: 451px;
+    height: 267px;
+  }
 }
 
 /* -------------------------- MEDIA QUERY <= 767 -------------------------- */
@@ -1177,5 +1241,37 @@ body {
   }
   #mentors-row-tile-2-6 {
     left: 305px;
+  }
+
+
+  #testimonials-container {
+    top: 1630px;
+
+    width: 375px;
+    height: 270px;
+  }
+
+  #testimonials-quote-mark {
+    width: 30px;
+    height: 23px;
+  }
+
+  #testimonials-heading-img {
+    top: 50px;
+
+    width: 87px;
+    height: 11px;
+  }
+
+  #testimonials-video-container {
+    top: 110px;
+
+    width: 343px;
+    height: 131px;
+  }
+
+  #testimonials-video-accent {
+    width: 221px;
+    height: 131px;
   }
 }

@@ -793,7 +793,7 @@ body {
     height: 306px;
   }
 
-/* --- MENTORS CONTAINER QUERY --- */
+
   .mentors-row-container {
     width: 700px;
     height: 223px;
@@ -848,7 +848,7 @@ body {
     height: 21px;
   }
 
-  /* ----------------- ROW 1 ----------------- */
+
   #mentors-row-container-1 {
     top: 170px;
   }
@@ -872,7 +872,7 @@ body {
     left: 623px;
   }
 
-  /* ----------------- ROW 2 ----------------- */
+
   #mentors-row-container-2 {
     top: 400px;
   }
@@ -999,7 +999,7 @@ body {
 }
 
 /* -------------------------- MEDIA QUERY <= 424 -------------------------- */
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
   #value-background-base {
     height: 264px;
   }

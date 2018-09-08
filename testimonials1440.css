@@ -24,6 +24,21 @@
   height: 503px;
 }
 
+.testimonials-video {
+  top: 75px;
+
+  width: 631px;
+  height: 393px;
+}
+
+#testimonials-video-ann {
+  right: 325px;
+}
+
+#testimonials-video-student {
+  right: -265px;
+}
+
 #testimonials-video-accent {
   width: 851px;
   height: 503px;

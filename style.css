@@ -466,8 +466,6 @@ body {
   margin: auto;
 
   overflow-x: hidden;
-
-  /* border: 1px solid black; */
 }
 
 #testimonials-quote-mark {
@@ -499,8 +497,6 @@ body {
 
   width: 1360px;
   height: 503px;
-
-  /* border: 1px solid black; */
 }
 
 #testimonials-name-ann {
@@ -569,7 +565,7 @@ body {
 
 
 /* ------------------------- PRICE TABLE CONTAINER ------------------------- */
-/* #price-table-container {
+#price-table-container {
   position: absolute;
   top: 7040px;
   left: 0;
@@ -590,7 +586,7 @@ body {
   margin: auto;
 }
 
-#price-table-plan-toggle {
+/* #price-table-plan-toggle {
   position: absolute;
   top: 300px;
   left: 0;
@@ -599,46 +595,31 @@ body {
   width: 355px;
   height: 35px;
   margin: auto;
+} */
+
+.price-table-plan {
+  position: absolute;
+  top: 390px;
+  right: 0;
+
+  width: 376px;
+  height: 669px;
+  margin: auto;
+
+  cursor: pointer;
 }
 
 #price-table-basic-plan {
-  position: absolute;
-  top: 400px;
   left: -780px;
-  right: 0;
-
-  width: 376px;
-  height: 669px;
-  margin: auto;
-
-  cursor: pointer;
 }
 
 #price-table-advanced-plan {
-  position: absolute;
-  top: 400px;
   left: 0;
-  right: 0;
-
-  width: 376px;
-  height: 669px;
-  margin: auto;
-
-  cursor: pointer;
 }
 
 #price-table-deluxe-plan {
-  position: absolute;
-  top: 400px;
   left: 780px;
-  right: 0;
-
-  width: 376px;
-  height: 669px;
-  margin: auto;
-
-  cursor: pointer;
-} */
+}
 
 
 
@@ -926,6 +907,32 @@ body {
     width: 604px;
     height: 357px;
   }
+
+  #price-table-container {
+    top: 5098px;
+
+    width: 1024px;
+    height: 852px;
+  }
+
+  .price-table-plan {
+    top: 280px;
+
+    width: 267px;
+    height: 475px;
+  }
+
+  #price-table-basic-plan {
+    left: -554px;
+  }
+
+  #price-table-advanced-plan {
+    left: 0;
+  }
+
+  #price-table-deluxe-plan {
+    left: 554px;
+  }
 }
 
 /* -------------------------- MEDIA QUERY <= 1023 -------------------------- */
@@ -1212,6 +1219,32 @@ body {
     width: 451px;
     height: 267px;
   }
+
+  #price-table-container {
+    top: 3810px;
+
+    width: 768px;
+    height: 636px;
+  }
+
+  .price-table-plan {
+    top: 210px;
+
+    width: 199px;
+    height: 355px;
+  }
+
+  #price-table-basic-plan {
+    left: -413px;
+  }
+
+  #price-table-advanced-plan {
+    left: 0;
+  }
+
+  #price-table-deluxe-plan {
+    left: 413px;
+  }
 }
 
 /* -------------------------- MEDIA QUERY <= 767 -------------------------- */
@@ -1497,5 +1530,31 @@ body {
   #testimonials-video-accent {
     width: 221px;
     height: 131px;
+  }
+
+  #price-table-container {
+    top: 1900px;
+
+    width: 375px;
+    height: 312px;
+  }
+
+  .price-table-plan {
+    top: 100px;
+
+    width: 98px;
+    height: 174px;
+  }
+
+  #price-table-basic-plan {
+    left: -203px;
+  }
+
+  #price-table-advanced-plan {
+    left: 0;
+  }
+
+  #price-table-deluxe-plan {
+    left: 203px;
   }
 }

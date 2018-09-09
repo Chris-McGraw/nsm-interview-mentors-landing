@@ -103,7 +103,16 @@ body {
   border: 2px solid white;
   border-radius: 30px;
 
+  outline: none;
   cursor: pointer;
+
+  transition: color 400ms linear, background-color 400ms ease-in-out;
+}
+
+.nav-button-hover {
+  color: rgba(28,171,160, 1.0);
+
+  background-color: white !important;
 }
 
 .center-white {
@@ -157,7 +166,14 @@ body {
   border-radius: 30px;
   box-shadow: 2px 16px 16px rgba(16,72,67, 0.53);
 
+  outline: none;
   cursor: pointer;
+
+  transition: transform 400ms ease-in-out;
+}
+
+.value-button-hover {
+  transform: scale(1.1);
 }
 
 #ipad-img {
@@ -219,50 +235,33 @@ body {
 
 #how-it-works-link-container {
   position: absolute;
-  bottom: 77px;
-  left: 46px;
+  top: 540px;
+  left: 0;
   right: 0;
 
-  width: 300px;
-  height: 60px;
+  width: 211px;
+  height: 34px;
   margin: auto;
-  padding-top: 10px;
-
-  background-color: rgba(255,255,255, 1.0);
 }
 
 #how-it-works-link {
   position: absolute;
-  top: 16px;
-  left: -44px;
+  top: 0;
+  left: 0;
   right: 0;
 
-  width: 207px;
-  height: 28px;
+  width: 100%;
   margin: auto;
-  padding-top: 4px;
 
-  text-align: right;
-  color: rgba(55,159,227, 1.0);
-  font-family: "Roboto", sans-serif;
-  font-size: 13pt;
-  font-weight: 300;
-  letter-spacing: 0.4px;
-  word-spacing: 1.0px;
-
-  background-color: rgba(255,255,255, 1.0);
   cursor: pointer;
 }
 
-#play-logo {
-  position: absolute;
-  top: 0;
-  left: 0;
+#how-it-works-link:hover {
+  opacity: 0.8;
+}
 
-  width: 28px;
-  height: 28px;
-
-  cursor: pointer;
+#how-it-works-link:active {
+  opacity: 1.0;
 }
 
 
@@ -734,30 +733,10 @@ body {
   }
 
   #how-it-works-link-container {
-    bottom: 54px;
-    left: 46px;
-    right: 0;
+    top: 380px;
 
-    width: 213px;
-    height: 43px;
-    padding-top: 0px;
-  }
-
-  #how-it-works-link {
-    top: 12px;
-    left: -44px;
-    right: 0;
-
-    width: 147px;
-    height: 20px;
-    padding-top: 2.5px;
-
-    font-size: 9pt;
-  }
-
-  #play-logo {
-    width: 20px;
-    height: 20px;
+    width: 150px;
+    height: 24px;
   }
 
   #benefits-container {
@@ -951,18 +930,6 @@ body {
 
 /* -------------------------- MEDIA QUERY <= 1023 -------------------------- */
 @media screen and (max-width: 1023px) {
-
-
-
-
-
-  #how-it-works-link-container {
-    display: none;
-  }
-
-
-
-
   #value-container {
     width: 768px;
   }
@@ -1049,6 +1016,13 @@ body {
 
     width: 768px;
     height: 344px;
+  }
+
+  #how-it-works-link-container {
+    top: 280px;
+
+    width: 112px;
+    height: 18px;
   }
 
   #benefits-container {
@@ -1328,6 +1302,13 @@ body {
 
     width: 375px;
     height: 169px;
+  }
+
+  #how-it-works-link-container {
+    top: 140px;
+
+    width: 55px;
+    height: 9px;
   }
 
   #benefits-container {

@@ -37,6 +37,7 @@ $(document).ready(function() {
   var $videoSubGhost = $("#video-sub-ghost");
   var suspendCrossFadeStart = false;
 
+  var $priceTablePlan = $(".price-table-plan");
   var $priceTableBasicPlan = $("#price-table-basic-plan");
   var $priceTableAdvancedPlan = $("#price-table-advanced-plan");
   var $priceTableDeluxePlan = $("#price-table-deluxe-plan");
@@ -121,11 +122,25 @@ $(document).ready(function() {
     $(this).removeClass("nav-button-hover");
   });
 
+  $navButton.mousedown(function() {
+    $(this).addClass("nav-button-active");
+  });
+  $navButton.mouseup(function() {
+    $(this).removeClass("nav-button-active");
+  });
+
   $valueButton.mouseenter(function() {
     $(this).addClass("value-button-hover");
   });
   $valueButton.mouseleave(function() {
     $(this).removeClass("value-button-hover");
+  });
+
+  $valueButton.mousedown(function() {
+    $(this).addClass("value-button-active");
+  });
+  $valueButton.mouseup(function() {
+    $(this).removeClass("value-button-active");
   });
 
 
@@ -188,6 +203,13 @@ $(document).ready(function() {
 
     $priceTableBasicPlan.attr("src", basicPlanImg);
     $priceTableAdvancedPlan.attr("src", advancedPlanImg);
+  });
+
+  $priceTablePlan.mousedown(function() {
+    $(this).addClass("price-table-plan-active");
+  });
+  $priceTablePlan.mouseup(function() {
+    $(this).removeClass("price-table-plan-active");
   });
 
 

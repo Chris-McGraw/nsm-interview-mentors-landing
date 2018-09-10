@@ -106,13 +106,17 @@ body {
   outline: none;
   cursor: pointer;
 
-  transition: color 400ms linear, background-color 400ms ease-in-out;
+  transition: color 400ms ease-in-out, background-color 400ms ease-in-out, opacity 400ms ease-in-out;
 }
 
 .nav-button-hover {
   color: rgba(28,171,160, 1.0);
 
   background-color: white !important;
+}
+
+.nav-button-active {
+  opacity: 0.8;
 }
 
 .center-white {
@@ -173,7 +177,11 @@ body {
 }
 
 .value-button-hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
+}
+
+.value-button-active {
+  transform: scale(1.0);
 }
 
 #ipad-img {
@@ -690,6 +698,12 @@ body {
   margin: auto;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.price-table-plan-active {
+  transform: scale(0.96);
 }
 
 #price-table-basic-plan {

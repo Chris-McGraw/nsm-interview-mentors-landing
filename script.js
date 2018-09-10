@@ -17,6 +17,7 @@ $(document).ready(function() {
   var $mentorsRowArrow1 = $("#mentors-row-arrow-1");
 
   var $testimonialsArrowLeft = $("#testimonials-arrow-left");
+  var $testimonialsArrowRight = $("#testimonials-arrow-right");
 
   var $priceTableBasicPlan = $("#price-table-basic-plan");
   var $priceTableAdvancedPlan = $("#price-table-advanced-plan");
@@ -38,6 +39,22 @@ $(document).ready(function() {
   });
   $valueButton.mouseleave(function() {
     $(this).removeClass("value-button-hover");
+  });
+
+
+/* -- TESTIMONIALS CONTAINER -- */
+  $testimonialsArrowLeft.mouseenter(function() {
+    $(this).addClass("testimonials-arrow-hover-left");
+  });
+  $testimonialsArrowLeft.mouseleave(function() {
+    $(this).removeClass("testimonials-arrow-hover-left");
+  });
+
+  $testimonialsArrowRight.mouseenter(function() {
+    $(this).addClass("testimonials-arrow-hover-right");
+  });
+  $testimonialsArrowRight.mouseleave(function() {
+    $(this).removeClass("testimonials-arrow-hover-right");
   });
 
 

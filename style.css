@@ -1075,6 +1075,88 @@ body {
     width: 1024px;
     height: 328px;
   }
+
+  #footer-product-link-container {
+    top: 124px;
+    right: 432px;
+
+    width: 71px;
+    height: 99px;
+  }
+
+  #how-it-works-footer-link {
+    top: 0;
+
+    width: 63px;
+    height: 9px;
+  }
+
+  #benefits-footer-link {
+    top: 32px;
+
+    width: 39px;
+    height: 9px;
+  }
+
+  #features-footer-link {
+    top: 64px;
+
+    width: 43px;
+    height: 9px;
+  }
+
+  #footer-support-link-container {
+    top: 134px;
+    right: 290px;
+
+    width: 71px;
+    height: 99px;
+  }
+
+  #blog-footer-link {
+    top: 0;
+
+    width: 21px;
+    height: 11px;
+  }
+
+  #help-footer-link {
+    top: 29px;
+
+    width: 21px;
+    height: 11px;
+  }
+
+  #faq-footer-link {
+    top: 61px;
+
+    width: 20px;
+    height: 11px;
+  }
+
+  #footer-social-media-container {
+    top: 200px;
+    right: 156px;
+
+    width: 64px;
+  }
+
+  .footer-social-logo {
+    width: 14px;
+    height: 14px;
+  }
+
+  #facebook-logo-img {
+    left: 0;
+  }
+
+  #instagram-logo-img {
+    left: 25px;
+  }
+
+  #twitter-logo-img {
+    left: 50px;
+  }
 }
 
 /* -------------------------- MEDIA QUERY <= 1023 -------------------------- */
@@ -1394,6 +1476,88 @@ body {
     width: 768px;
     height: 245px;
   }
+
+  #footer-product-link-container {
+    top: 95px;
+    right: 325px;
+
+    width: 53px;
+    height: 74px;
+  }
+
+  #how-it-works-footer-link {
+    top: 0;
+
+    width: 47px;
+    height: 6px;
+  }
+
+  #benefits-footer-link {
+    top: 24px;
+
+    width: 29px;
+    height: 6px;
+  }
+
+  #features-footer-link {
+    top: 48px;
+
+    width: 32px;
+    height: 6px;
+  }
+
+  #footer-support-link-container {
+    top: 100px;
+    right: 218px;
+
+    width: 53px;
+    height: 74px;
+  }
+
+  #blog-footer-link {
+    top: 0;
+
+    width: 15px;
+    height: 8px;
+  }
+
+  #help-footer-link {
+    top: 22px;
+
+    width: 16px;
+    height: 8px;
+  }
+
+  #faq-footer-link {
+    top: 46px;
+
+    width: 15px;
+    height: 8px;
+  }
+
+  #footer-social-media-container {
+    top: 148px;
+    right: 118px;
+
+    width: 48px;
+  }
+
+  .footer-social-logo {
+    width: 11px;
+    height: 11px;
+  }
+
+  #facebook-logo-img {
+    left: 0;
+  }
+
+  #instagram-logo-img {
+    left: 19px;
+  }
+
+  #twitter-logo-img {
+    left: 38px;
+  }
 }
 
 /* -------------------------- MEDIA QUERY <= 767 -------------------------- */
@@ -1712,5 +1876,87 @@ body {
 
     width: 375px;
     height: 120px;
+  }
+
+  #footer-product-link-container {
+    top: 46px;
+    right: 159px;
+
+    width: 26px;
+    height: 36px;
+  }
+
+  #how-it-works-footer-link {
+    top: 0;
+
+    width: 23px;
+    height: 3px;
+  }
+
+  #benefits-footer-link {
+    top: 12px;
+
+    width: 14px;
+    height: 3px;
+  }
+
+  #features-footer-link {
+    top: 24px;
+
+    width: 16px;
+    height: 3px;
+  }
+
+  #footer-support-link-container {
+    top: 48px;
+    right: 106px;
+
+    width: 26px;
+    height: 36px;
+  }
+
+  #blog-footer-link {
+    top: 0;
+
+    width: 8px;
+    height: 4px;
+  }
+
+  #help-footer-link {
+    top: 11px;
+
+    width: 8px;
+    height: 4px;
+  }
+
+  #faq-footer-link {
+    top: 22px;
+
+    width: 7px;
+    height: 4px;
+  }
+
+  #footer-social-media-container {
+    top: 72px;
+    right: 58px;
+
+    width: 23px;
+  }
+
+  .footer-social-logo {
+    width: 5px;
+    height: 5px;
+  }
+
+  #facebook-logo-img {
+    left: 0;
+  }
+
+  #instagram-logo-img {
+    left: 9px;
+  }
+
+  #twitter-logo-img {
+    left: 18px;
   }
 }

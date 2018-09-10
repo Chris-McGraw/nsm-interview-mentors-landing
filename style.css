@@ -556,10 +556,18 @@ body {
 
   width: 631px;
   height: 393px;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.testimonials-video-hover {
+  transform: scale(1.1);
 }
 
 #testimonials-video-ann {
   right: 325px;
+
+  cursor: pointer;
 }
 
 #testimonials-video-student {

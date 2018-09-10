@@ -18,6 +18,7 @@ $(document).ready(function() {
 
   var $testimonialsArrowLeft = $("#testimonials-arrow-left");
   var $testimonialsArrowRight = $("#testimonials-arrow-right");
+  var $testimonialsVideoAnn = $("#testimonials-video-ann");
 
   var $priceTableBasicPlan = $("#price-table-basic-plan");
   var $priceTableAdvancedPlan = $("#price-table-advanced-plan");
@@ -55,6 +56,13 @@ $(document).ready(function() {
   });
   $testimonialsArrowRight.mouseleave(function() {
     $(this).removeClass("testimonials-arrow-hover-right");
+  });
+
+  $testimonialsVideoAnn.mouseenter(function() {
+    $(this).addClass("testimonials-video-hover");
+  });
+  $testimonialsVideoAnn.mouseleave(function() {
+    $(this).removeClass("testimonials-video-hover");
   });
 
 

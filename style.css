@@ -644,6 +644,119 @@ body {
   margin: auto;
 }
 
+.footer-link {
+  position: absolute;
+  left: 0;
+
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  opacity: 0.6;
+}
+
+.footer-link:active {
+  opacity: 1.0;
+}
+
+#footer-product-link-container {
+  position: absolute;
+  top: 180px;
+  right: 607px;
+
+  width: 100px;
+  height: 140px;
+}
+
+#how-it-works-footer-link {
+  top: 0;
+
+  width: 89px;
+  height: 12px;
+}
+
+#benefits-footer-link {
+  top: 45px;
+
+  width: 55px;
+  height: 12px;
+}
+
+#features-footer-link {
+  top: 90px;
+
+  width: 60px;
+  height: 12px;
+}
+
+#footer-support-link-container {
+  position: absolute;
+  top: 188px;
+  right: 407px;
+
+  width: 100px;
+  height: 140px;
+}
+
+#blog-footer-link {
+  top: 0;
+
+  width: 29px;
+  height: 16px;
+}
+
+#help-footer-link {
+  top: 41px;
+
+  width: 30px;
+  height: 16px;
+}
+
+#faq-footer-link {
+  top: 86px;
+
+  width: 28px;
+  height: 16px;
+}
+
+#footer-social-media-container {
+  position: absolute;
+  top: 280px;
+  right: 220px;
+
+  width: 90px;
+}
+
+.footer-social-logo {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.footer-social-logo:hover {
+  opacity: 0.3;
+}
+
+.footer-social-logo:active {
+  opacity: 0.5;
+}
+
+#facebook-logo-img {
+  left: 0;
+}
+
+#instagram-logo-img {
+  left: 35px;
+}
+
+#twitter-logo-img {
+  left: 70px;
+}
+
 
 
 

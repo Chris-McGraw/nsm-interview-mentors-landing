@@ -24,14 +24,14 @@
   height: 503px;
 }
 
-#testimonials-name-ann {
+#testimonials-name {
   top: 95px;
 
   width: 235px;
   height: 59px;
 }
 
-#testimonials-description-ann {
+#testimonials-description {
   top: 205px;
 
   width: 374px;
@@ -54,11 +54,11 @@
   height: 393px;
 }
 
-#testimonials-video-ann {
+#testimonials-video-main {
   right: 325px;
 }
 
-#testimonials-video-student {
+#testimonials-video-sub {
   right: -265px;
 }
 

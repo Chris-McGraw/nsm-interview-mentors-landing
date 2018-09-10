@@ -35,6 +35,7 @@ $(document).ready(function() {
   var $videoMainGhost = $("#video-main-ghost");
   var $testimonialsVideoSub = $("#testimonials-video-sub");
   var $videoSubGhost = $("#video-sub-ghost");
+  var suspendCrossFadeStart = false;
 
   var $priceTableBasicPlan = $("#price-table-basic-plan");
   var $priceTableAdvancedPlan = $("#price-table-advanced-plan");
@@ -85,12 +86,18 @@ $(document).ready(function() {
 
 
   function crossFadeMain() {
+    suspendCrossFadeStart = true;
+
     $videoMainGhost.removeClass("fade-out");
     $videoMainGhost.css("opacity", "10");
 
     setTimeout(function() {
       $videoMainGhost.addClass("fade-out");
     }, 0);
+
+    setTimeout(function() {
+      suspendCrossFadeStart = false;
+    }, 800);
   }
 
 
@@ -130,10 +137,12 @@ $(document).ready(function() {
     $(this).removeClass("testimonials-arrow-hover-left");
   });
   $testimonialsArrowLeft.on("click", function() {
-    swapImages();
-    crossFadeText();
-    crossFadeMain();
-    crossFadeSub();
+    if(suspendCrossFadeStart === false) {
+      swapImages();
+      crossFadeText();
+      crossFadeMain();
+      crossFadeSub();
+    }
   });
 
   $testimonialsArrowRight.mouseenter(function() {
@@ -143,10 +152,12 @@ $(document).ready(function() {
     $(this).removeClass("testimonials-arrow-hover-right");
   });
   $testimonialsArrowRight.on("click", function() {
-    swapImages();
-    crossFadeText();
-    crossFadeMain();
-    crossFadeSub();
+    if(suspendCrossFadeStart === false) {
+      swapImages();
+      crossFadeText();
+      crossFadeMain();
+      crossFadeSub();
+    }
   });
 
   $videoMainGhost.mouseenter(function() {

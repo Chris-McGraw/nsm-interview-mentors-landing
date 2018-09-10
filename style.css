@@ -499,22 +499,48 @@ body {
   height: 503px;
 }
 
-#testimonials-name-ann {
+#testimonials-name {
   position: absolute;
   left: 0;
   top: 95px;
 
   width: 235px;
   height: 59px;
+
+  opacity: 1;
 }
 
-#testimonials-description-ann {
+#testimonials-name-ghost {
+  position: absolute;
+  left: 0;
+  top: 95px;
+
+  width: 235px;
+  height: 59px;
+
+  opacity: 0;
+}
+
+#testimonials-description {
   position: absolute;
   left: 0;
   top: 205px;
 
   width: 374px;
   height: 130px;
+
+  opacity: 1;
+}
+
+#testimonials-description-ghost {
+  position: absolute;
+  left: 0;
+  top: 205px;
+
+  width: 374px;
+  height: 130px;
+
+  opacity: 0;
 }
 
 .testimonials-arrow {
@@ -567,6 +593,11 @@ body {
 .fade-out {
   opacity: 0 !important;
   transition: opacity 600ms ease-in-out;
+}
+
+.fade-out-fast {
+  opacity: 0 !important;
+  transition: opacity 300ms ease-in-out;
 }
 
 #testimonials-video-main {
@@ -1052,14 +1083,28 @@ body {
     height: 357px;
   }
 
-  #testimonials-name-ann {
+  #testimonials-name {
     top: 75px;
 
     width: 167px;
     height: 42px;
   }
 
-  #testimonials-description-ann {
+  #testimonials-name-ghost {
+    top: 75px;
+
+    width: 167px;
+    height: 42px;
+  }
+
+  #testimonials-description {
+    top: 155px;
+
+    width: 266px;
+    height: 92px;
+  }
+
+  #testimonials-description-ghost {
     top: 155px;
 
     width: 266px;
@@ -1469,14 +1514,28 @@ body {
     height: 267px;
   }
 
-  #testimonials-name-ann {
+  #testimonials-name {
     top: 55px;
 
     width: 125px;
     height: 31px;
   }
 
-  #testimonials-description-ann {
+  #testimonials-name-ghost {
+    top: 55px;
+
+    width: 125px;
+    height: 31px;
+  }
+
+  #testimonials-description {
+    top: 115px;
+
+    width: 198px;
+    height: 69px;
+  }
+
+  #testimonials-description-ghost {
     top: 115px;
 
     width: 198px;
@@ -1886,14 +1945,28 @@ body {
     height: 131px;
   }
 
-  #testimonials-name-ann {
+  #testimonials-name {
     top: 30px;
 
     width: 61px;
     height: 15px;
   }
 
-  #testimonials-description-ann {
+  #testimonials-name-ghost {
+    top: 30px;
+
+    width: 61px;
+    height: 15px;
+  }
+
+  #testimonials-description {
+    top: 60px;
+
+    width: 97px;
+    height: 34px;
+  }
+
+  #testimonials-description-ghost {
     top: 60px;
 
     width: 97px;

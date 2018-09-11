@@ -703,16 +703,18 @@ body {
   margin: auto;
 }
 
-/* #price-table-plan-toggle {
+#price-table-plan-toggle {
   position: absolute;
-  top: 300px;
+  top: 275px;
   left: 0;
   right: 0;
 
   width: 355px;
   height: 35px;
   margin: auto;
-} */
+
+  cursor: pointer;
+}
 
 .price-table-plan {
   position: absolute;
@@ -1203,6 +1205,13 @@ body {
     height: 852px;
   }
 
+  #price-table-plan-toggle {
+    top: 194px;
+
+    width: 252px;
+    height: 25px;
+  }
+
   .price-table-plan {
     top: 280px;
 
@@ -1634,6 +1643,13 @@ body {
     height: 636px;
   }
 
+  #price-table-plan-toggle {
+    top: 146px;
+
+    width: 188px;
+    height: 19px;
+  }
+
   .price-table-plan {
     top: 210px;
 
@@ -2063,6 +2079,13 @@ body {
 
     width: 375px;
     height: 312px;
+  }
+
+  #price-table-plan-toggle {
+    top: 72px;
+
+    width: 92px;
+    height: 9px;
   }
 
   .price-table-plan {

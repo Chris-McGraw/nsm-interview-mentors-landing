@@ -8,6 +8,9 @@ var testimonialsDescriptionStudent = "https://res.cloudinary.com/dtwyohvli/image
 var testimonialsVideoAnn = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536416417/nsm-mentor-landing/testimonials-video-ann.png";
 var testimonialsVideoStudent = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536416417/nsm-mentor-landing/testimonials-video-student.png";
 
+var planToggleMonthly = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536629718/nsm-mentor-landing/price-table-plan-toggle-month.png";
+var planToggleAnnual = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536629718/nsm-mentor-landing/price-table-plan-toggle-annual.png";
+
 var basicPlanImg = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536461113/nsm-mentor-landing/price-table-basic-plan.png";
 var advancedPlanImg = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536461113/nsm-mentor-landing/price-table-advanced-plan.png";
 var deluxePlanImg = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536461113/nsm-mentor-landing/price-table-deluxe-plan.png";
@@ -38,6 +41,7 @@ $(document).ready(function() {
   var $videoSubGhost = $("#video-sub-ghost");
   var suspendCrossFadeStart = false;
 
+  var $priceTablePlanToggle = $("#price-table-plan-toggle");
   var $priceTablePlan = $(".price-table-plan");
   var $priceTableBasicPlan = $("#price-table-basic-plan");
   var $priceTableAdvancedPlan = $("#price-table-advanced-plan");
@@ -222,6 +226,15 @@ $(document).ready(function() {
 
 
 /* --- PRICE TABLE CONTAINER --- */
+  $priceTablePlanToggle.on("click", function() {
+    if($priceTablePlanToggle.attr("src") === planToggleMonthly) {
+      $priceTablePlanToggle.attr("src", planToggleAnnual);
+    }
+    else if($priceTablePlanToggle.attr("src") === planToggleAnnual){
+      $priceTablePlanToggle.attr("src", planToggleMonthly);
+    }
+  });
+
   $priceTableBasicPlan.mouseenter(function() {
     $(this).attr("src", basicPlanImgActive);
 

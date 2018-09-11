@@ -8,6 +8,9 @@ var testimonialsDescriptionStudent = "https://res.cloudinary.com/dtwyohvli/image
 var testimonialsVideoAnn = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536416417/nsm-mentor-landing/testimonials-video-ann.png";
 var testimonialsVideoStudent = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536416417/nsm-mentor-landing/testimonials-video-student.png";
 
+var planToggleMonthly = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536629718/nsm-mentor-landing/price-table-plan-toggle-month.png";
+var planToggleAnnual = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536629718/nsm-mentor-landing/price-table-plan-toggle-annual.png";
+
 var basicPlanImg = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536461113/nsm-mentor-landing/price-table-basic-plan.png";
 var advancedPlanImg = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536461113/nsm-mentor-landing/price-table-advanced-plan.png";
 var deluxePlanImg = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536461113/nsm-mentor-landing/price-table-deluxe-plan.png";
@@ -23,7 +26,8 @@ $(document).ready(function() {
   var $navButton = $("#nav-button");
   var $valueButton = $("#value-button");
 
-  var $mentorsRowArrow1 = $("#mentors-row-arrow-1");
+  var $mentorsRowArrow = $(".mentors-row-arrow");
+  var $mentorsRowTile = $(".mentors-row-tile");
 
   var $testimonialsName = $("#testimonials-name");
   var $testimonialsNameGhost = $("#testimonials-name-ghost");
@@ -37,6 +41,7 @@ $(document).ready(function() {
   var $videoSubGhost = $("#video-sub-ghost");
   var suspendCrossFadeStart = false;
 
+  var $priceTablePlanToggle = $("#price-table-plan-toggle");
   var $priceTablePlan = $(".price-table-plan");
   var $priceTableBasicPlan = $("#price-table-basic-plan");
   var $priceTableAdvancedPlan = $("#price-table-advanced-plan");
@@ -98,7 +103,7 @@ $(document).ready(function() {
 
     setTimeout(function() {
       suspendCrossFadeStart = false;
-    }, 800);
+    }, 600);
   }
 
 
@@ -144,6 +149,36 @@ $(document).ready(function() {
   });
 
 
+/* ---- MENTORS CONTAINER ---- */
+  $mentorsRowArrow.mouseenter(function() {
+    $(this).addClass("mentors-row-arrow-hover");
+  });
+  $mentorsRowArrow.mouseleave(function() {
+    $(this).removeClass("mentors-row-arrow-hover");
+  });
+
+  $mentorsRowArrow.mousedown(function() {
+    $(this).addClass("mentors-row-arrow-active");
+  });
+  $mentorsRowArrow.mouseup(function() {
+    $(this).removeClass("mentors-row-arrow-active");
+  });
+
+  $mentorsRowTile.mouseenter(function() {
+    $(this).addClass("mentors-row-tile-hover");
+  });
+  $mentorsRowTile.mouseleave(function() {
+    $(this).removeClass("mentors-row-tile-hover");
+  });
+
+  $mentorsRowTile.mousedown(function() {
+    $(this).addClass("mentors-row-tile-active");
+  });
+  $mentorsRowTile.mouseup(function() {
+    $(this).removeClass("mentors-row-tile-active");
+  });
+
+
 /* -- TESTIMONIALS CONTAINER -- */
   $testimonialsArrowLeft.mouseenter(function() {
     $(this).addClass("testimonials-arrow-hover-left");
@@ -182,8 +217,24 @@ $(document).ready(function() {
     $testimonialsVideoMain.removeClass("testimonials-video-hover");
   });
 
+  $videoMainGhost.mousedown(function() {
+    $testimonialsVideoMain.addClass("testimonials-video-active");
+  });
+  $videoMainGhost.mouseup(function() {
+    $testimonialsVideoMain.removeClass("testimonials-video-active");
+  });
+
 
 /* --- PRICE TABLE CONTAINER --- */
+  $priceTablePlanToggle.on("click", function() {
+    if($priceTablePlanToggle.attr("src") === planToggleMonthly) {
+      $priceTablePlanToggle.attr("src", planToggleAnnual);
+    }
+    else if($priceTablePlanToggle.attr("src") === planToggleAnnual){
+      $priceTablePlanToggle.attr("src", planToggleMonthly);
+    }
+  });
+
   $priceTableBasicPlan.mouseenter(function() {
     $(this).attr("src", basicPlanImgActive);
 

@@ -106,7 +106,7 @@ body {
   outline: none;
   cursor: pointer;
 
-  transition: color 400ms ease-in-out, background-color 400ms ease-in-out, opacity 400ms ease-in-out;
+  transition: color 200ms ease-in-out, background-color 200ms ease-in-out, opacity 200ms ease-in-out;
 }
 
 .nav-button-hover {
@@ -173,7 +173,7 @@ body {
   outline: none;
   cursor: pointer;
 
-  transition: transform 400ms ease-in-out;
+  transition: transform 200ms ease-in-out;
 }
 
 .value-button-hover {
@@ -181,7 +181,7 @@ body {
 }
 
 .value-button-active {
-  transform: scale(1.0);
+  transform: scale(0.98);
 }
 
 #ipad-img {
@@ -345,6 +345,16 @@ body {
   height: 92px;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.mentors-row-arrow-hover {
+  transform: scale(1.1);
+}
+
+.mentors-row-arrow-active {
+  transform: scale(0.96);
 }
 
 .mentors-row-heading-img {
@@ -381,6 +391,18 @@ body {
 
   width: 241px;
   height: 301px;
+
+  cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.mentors-row-tile-hover {
+  transform: scale(1.1);
+}
+
+.mentors-row-tile-active {
+  transform: scale(0.96);
 }
 
 #mentors-container-main {
@@ -598,14 +620,18 @@ body {
   transform: scale(1.1);
 }
 
+.testimonials-video-active {
+  transform: scale(0.96);
+}
+
 .fade-out {
   opacity: 0 !important;
-  transition: opacity 600ms ease-in-out;
+  transition: opacity 400ms ease-in-out;
 }
 
 .fade-out-fast {
   opacity: 0 !important;
-  transition: opacity 300ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
 }
 
 #testimonials-video-main {
@@ -677,16 +703,18 @@ body {
   margin: auto;
 }
 
-/* #price-table-plan-toggle {
+#price-table-plan-toggle {
   position: absolute;
-  top: 300px;
+  top: 275px;
   left: 0;
   right: 0;
 
   width: 355px;
   height: 35px;
   margin: auto;
-} */
+
+  cursor: pointer;
+}
 
 .price-table-plan {
   position: absolute;
@@ -1177,6 +1205,13 @@ body {
     height: 852px;
   }
 
+  #price-table-plan-toggle {
+    top: 194px;
+
+    width: 252px;
+    height: 25px;
+  }
+
   .price-table-plan {
     top: 280px;
 
@@ -1608,6 +1643,13 @@ body {
     height: 636px;
   }
 
+  #price-table-plan-toggle {
+    top: 146px;
+
+    width: 188px;
+    height: 19px;
+  }
+
   .price-table-plan {
     top: 210px;
 
@@ -2037,6 +2079,13 @@ body {
 
     width: 375px;
     height: 312px;
+  }
+
+  #price-table-plan-toggle {
+    top: 72px;
+
+    width: 92px;
+    height: 9px;
   }
 
   .price-table-plan {

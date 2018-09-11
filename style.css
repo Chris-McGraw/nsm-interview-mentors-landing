@@ -864,6 +864,25 @@ body {
   height: 16px;
 }
 
+#email-footer-link {
+  position: absolute;
+  top: 186px;
+  right: 174px;
+
+  width: 140px;
+  height: 16px;
+
+  cursor: pointer;
+}
+
+#email-footer-link:hover {
+  opacity: 0.6;
+}
+
+#email-footer-link:active {
+  opacity: 1.0;
+}
+
 #footer-social-media-container {
   position: absolute;
   top: 280px;
@@ -1326,6 +1345,14 @@ body {
     height: 11px;
   }
 
+  #email-footer-link {
+    top: 133px;
+    right: 124px;
+
+    width: 99px;
+    height: 11px;
+  }
+
   #footer-social-media-container {
     top: 200px;
     right: 156px;
@@ -1774,6 +1801,14 @@ body {
     height: 8px;
   }
 
+  #email-footer-link {
+    top: 99px;
+    right: 93px;
+
+    width: 74px;
+    height: 8px;
+  }
+
   #footer-social-media-container {
     top: 148px;
     right: 118px;
@@ -2219,6 +2254,14 @@ body {
     top: 22px;
 
     width: 7px;
+    height: 4px;
+  }
+
+  #email-footer-link {
+    top: 48px;
+    right: 46px;
+
+    width: 36px;
     height: 4px;
   }
 

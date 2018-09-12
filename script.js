@@ -1,4 +1,7 @@
 /* ------------------------ IMAGE FILE DECLARATIONS ------------------------ */
+var rowTileImgEmpty = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536335999/nsm-mentor-landing/mentors-row-tile-empty.png";
+var rowTileImgBanner = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536335999/nsm-mentor-landing/mentors-row-tile-banner.png";
+
 var testimonialsNameAnn = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536424630/nsm-mentor-landing/testimonials-name-ann.png";
 var testimonialsNameStudent = "https://res.cloudinary.com/dtwyohvli/image/upload/v1536605427/nsm-mentor-landing/testimonials-name-student.png";
 
@@ -29,6 +32,22 @@ $(document).ready(function() {
   var $mentorsRowArrow = $(".mentors-row-arrow");
   var $mentorsRowTile = $(".mentors-row-tile");
 
+  var $mentorsRowArrow1 = $("#mentors-row-arrow-1");
+  var $mentorsRowTile_1_1 = $("#mentors-row-tile-1-1");
+  var $mentorsRowTile_1_2 = $("#mentors-row-tile-1-2");
+  var $mentorsRowTile_1_3 = $("#mentors-row-tile-1-3");
+  var $mentorsRowTile_1_4 = $("#mentors-row-tile-1-4");
+  var $mentorsRowTile_1_5 = $("#mentors-row-tile-1-5");
+  var $mentorsRowTile_1_6 = $("#mentors-row-tile-1-6");
+
+  var $mentorsRowArrow2 = $("#mentors-row-arrow-2");
+  var $mentorsRowTile_2_1 = $("#mentors-row-tile-2-1");
+  var $mentorsRowTile_2_2 = $("#mentors-row-tile-2-2");
+  var $mentorsRowTile_2_3 = $("#mentors-row-tile-2-3");
+  var $mentorsRowTile_2_4 = $("#mentors-row-tile-2-4");
+  var $mentorsRowTile_2_5 = $("#mentors-row-tile-2-5");
+  var $mentorsRowTile_2_6 = $("#mentors-row-tile-2-6");
+
   var $testimonialsName = $("#testimonials-name");
   var $testimonialsNameGhost = $("#testimonials-name-ghost");
   var $testimonialsDescription = $("#testimonials-description");
@@ -49,6 +68,89 @@ $(document).ready(function() {
 
 
 /* ------------------------- Function Declarations ------------------------- */
+  function mentorRow1Scroll() {
+    if($mentorsRowTile_1_2.attr("src") === rowTileImgBanner
+    && $mentorsRowTile_1_4.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_1_1.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_3.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_2.attr("src", rowTileImgEmpty);
+      $mentorsRowTile_1_4.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_1_1.attr("src") === rowTileImgBanner
+    && $mentorsRowTile_1_3.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_1_2.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_6.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_1.attr("src", rowTileImgEmpty);
+      $mentorsRowTile_1_3.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_1_2.attr("src") === rowTileImgBanner
+    && $mentorsRowTile_1_6.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_1_1.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_5.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_2.attr("src", rowTileImgEmpty);
+      $mentorsRowTile_1_6.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_1_1.attr("src") === rowTileImgBanner
+    && $mentorsRowTile_1_5.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_1_6.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_4.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_1.attr("src", rowTileImgEmpty);
+      $mentorsRowTile_1_5.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_1_6.attr("src") === rowTileImgBanner
+    && $mentorsRowTile_1_4.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_1_5.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_3.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_6.attr("src", rowTileImgEmpty);
+      $mentorsRowTile_1_4.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_1_5.attr("src") === rowTileImgBanner
+    && $mentorsRowTile_1_3.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_1_4.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_2.attr("src", rowTileImgBanner);
+      $mentorsRowTile_1_5.attr("src", rowTileImgEmpty);
+      $mentorsRowTile_1_3.attr("src", rowTileImgEmpty);
+    }
+  }
+
+
+  function mentorRow2Scroll() {
+    if($mentorsRowTile_2_3.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_2_2.attr("src", rowTileImgBanner);
+      $mentorsRowTile_2_3.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_2_2.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_2_1.attr("src", rowTileImgBanner);
+      $mentorsRowTile_2_2.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_2_1.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_2_6.attr("src", rowTileImgBanner);
+      $mentorsRowTile_2_1.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_2_6.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_2_5.attr("src", rowTileImgBanner);
+      $mentorsRowTile_2_6.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_2_5.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_2_4.attr("src", rowTileImgBanner);
+      $mentorsRowTile_2_5.attr("src", rowTileImgEmpty);
+    }
+
+    else if($mentorsRowTile_2_4.attr("src") === rowTileImgBanner) {
+      $mentorsRowTile_2_3.attr("src", rowTileImgBanner);
+      $mentorsRowTile_2_4.attr("src", rowTileImgEmpty);
+    }
+  }
+
 
   function swapImages() {
     if($testimonialsVideoMain.attr("src") === testimonialsVideoAnn) {
@@ -56,7 +158,6 @@ $(document).ready(function() {
       $testimonialsVideoSub.attr("src", testimonialsVideoAnn);
       $testimonialsName.attr("src", testimonialsNameStudent);
       $testimonialsDescription.attr("src", testimonialsDescriptionStudent);
-
 
       $videoMainGhost.attr("src", testimonialsVideoAnn);
       $videoSubGhost.attr("src", testimonialsVideoStudent);
@@ -162,6 +263,13 @@ $(document).ready(function() {
   });
   $mentorsRowArrow.mouseup(function() {
     $(this).removeClass("mentors-row-arrow-active");
+  });
+
+  $mentorsRowArrow1.on("click", function() {
+    mentorRow1Scroll();
+  });
+  $mentorsRowArrow2.on("click", function() {
+    mentorRow2Scroll();
   });
 
   $mentorsRowTile.mouseenter(function() {
